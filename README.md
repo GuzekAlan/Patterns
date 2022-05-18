@@ -17,10 +17,8 @@
   It is `rule` number where bit position is represented as 3-bit number. When it creates new row it checks previous value and neighbour values. `010` means that left and right neighbour had value 0 and previous value was 1.
 
 - `FuncitonPattern` - class to create patterns using sets of parametes and probabilieties to choose one of the set. It genrate new coordinates using previous ones:
-
-  $x(t+1) = a \cdot x(t) + b \cdot y(t) + c$
-
-  $y(t+1) = d \cdot x(t) + e \cdot y(t) + f$
+  <img src="./img/README/equation.png" alt="equations" style="width: 50%" />
+  
 
 ### 3. Examples:
 
