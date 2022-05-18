@@ -1,14 +1,13 @@
-import fractions
 import Patterns
-import Fractals
 
 def pattern_example():
-    """Example of Pattern class using rule 94"""
-    pattern = Patterns.Pattern(N=30, rule=94)
+    """Example of NumberPattern class using rule 94"""
+    pattern = Patterns.NumberPattern(N=30, rule=94)
     pattern.evolution(10, True)
 
 def leaf_example():
-    leaf = Fractals.Fractal(
+    """Example of FunctionPattern class using leaf parameters"""
+    leaf = Patterns.FunctionPattern(
         ((0,0,0,0,0.16,0), 
         (0.2,-0.26,0,0.23,0.22,1.6), 
         (-0.15,0.28,0,0.26,0.24,0.44), 
